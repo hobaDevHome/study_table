@@ -4,99 +4,116 @@
 // ============================================================
 const lessons = {
   arabic: {
+    // كل أسبوع فيه درسين للمراجعة — عدّليهم هنا
     review: [
-      "مراجعة: الفعل المضارع وعلاماته",
-      "مراجعة: المبتدأ والخبر",
-      "مراجعة: أنواع الجملة العربية",
-      "مراجعة: الإعراب والبناء",
-      "مراجعة: الأفعال الخمسة",
+      ["مراجعة: اسم المفعول", "مراجعة: الحياة دقائق وثواني"],
+      ["مراجعة: صيغ المبالغة", "مراجعة: سفينة نوح"],
+      ["مراجعة: اسما الزمان والمكان", "مراجعة: خلال كريمة"],
+      ["مراجعة: وادي الكنانة", "مراجعة: رسالة إلى ابني"],
+      ["مراجعة: كتابة الهمزة", "مراجعة: فالق الحب والنوى "],
     ],
     study: [
-      "نص: قصيدة الوطن",
-      "نص: المسرحية الشعرية",
-      "قواعد: الاسم الموصول",
-      "قواعد: الجملة الفعلية",
-      "قواعد: المفعول به",
+      "استعن بالله",
+      "حب الوطن",
+      "اسم الالة",
+      "المشروعات الصغيرة",
+      "اسم التفضيل",
     ],
   },
   english: {
     review: [
-      "مراجعة: Present Simple",
-      "مراجعة: Past Simple",
-      "مراجعة: Vocabulary Unit 1-2",
-      "مراجعة: Adjectives & Adverbs",
-      "مراجعة: Reading Comprehension",
+      "مراجعة: Unit 7",
+      "مراجعة: Unit 8",
+      "مراجعة: Unit 9",
+      "مراجعة: Unit 10",
+      "مراجعة: Grammar Review unit 9 and 10",
     ],
     study: [
-      "Unit 3: Future Tense",
-      "Unit 4: Modal Verbs",
-      "Unit 5: Passive Voice",
-      "Unit 6: Conditionals",
-      "Unit 7: Reported Speech",
+      "Unit 3: Unit 11",
+      "Unit 4: Unit 11",
+      "Unit 5: Unit 12",
+      "Unit 6: Unit 12",
+      "Unit 7: Review unit 11 and 12",
     ],
   },
   science: {
     review: [
-      "مراجعة: المادة وخواصها",
-      "مراجعة: المخلوطات والمحاليل",
-      "مراجعة: الحرارة وانتقالها",
-      "مراجعة: الخلية الحية",
-      "مراجعة: الطاقة وأشكالها",
+      "مراجعة: التيار الكهربي",
+      "مراجعة: الاعمدةالكهربية",
+      "مراجعة: النشاط الاشعاعي",
+      "مراجعة: الجينات 1",
+      "مراجعة: الجينات 2",
     ],
     study: [
       "درس: التفاعلات الكيميائية",
-      "درس: الضوء والبصريات",
-      "درس: الجهاز العصبي",
-      "درس: الكهرباء الساكنة",
-      "درس: التكاثر عند النباتات",
+      "درس: تابع التفاعلات الكيمايئية",
+      "درس: سرعة التفاعل الكيمياتي",
+      "درس: تابع سرعة التفاعل الكيميائي",
+      "درس: الهرمونات",
     ],
   },
   social: {
+    // المراجعة مقسومة: تاريخ + جغرافيا — عدّليهم هنا
     review: [
-      "مراجعة: الحضارة المصرية القديمة",
-      "مراجعة: الموارد الطبيعية",
-      "مراجعة: مصر الجغرافية",
-      "مراجعة: الثورة العرابية",
-      "مراجعة: الديمقراطية والمواطنة",
+      {
+        history: "مراجعة تاريخ: ثورة 23 يوليو",
+        geography: "مراجعة جغرافيا: النشاط الزراعي",
+      },
+      {
+        history: "مراجعة تاريخ: القضية الفلسطينية",
+        geography: "مراجعة جغرافيا: الرعي",
+      },
+      {
+        history: "مراجعة تاريخ: حرب اكتوبر",
+        geography: "مراجعة جغرافيا: النشاط التعديني",
+      },
+      {
+        history: "مراجعة تاريخ: الصراع العربي الاسرائيلي",
+        geography: "مراجعة جغرافيا: النشاط الصناعي",
+      },
+      {
+        history: "مراجعة تاريخ: ثورة 25 يناير و 30 يونيو",
+        geography: "مراجعة جغرافيا: جمهورية الهند",
+      },
     ],
     study: [
-      "درس: الدولة الإسلامية",
-      "درس: المناخ في مصر",
-      "درس: الاقتصاد المصري",
-      "درس: الوحدة العربية",
-      "درس: حقوق الإنسان",
+      "درس: نيجيريا",
+      "درس: الحياة النيابية",
+      "درس: الولايات المتحدة",
+      "درس: المنظمات الاقليمية",
+      "درس: امتحانات محافظات",
     ],
   },
   algebra: {
     review: [
-      "مراجعة: العمليات على الكسور",
-      "مراجعة: المعادلات من الدرجة الأولى",
-      "مراجعة: الأسس والجذور",
-      "مراجعة: النسبة والتناسب",
-      "مراجعة: الاحتمالات",
+      "مراجعة: حل معادلتين في متغيرين",
+      "مراجعة: معادلة من الدرجة التانية مجهول واحد",
+      "مراجعة: معادلتين في متغيرين ",
+      "مراجعة: اصفار الدالة كثيرة الحدود",
+      "مراجعة: دالة الكسر الجبري",
     ],
     study: [
-      "درس: المعادلات من الدرجة الثانية",
-      "درس: المتتاليات الحسابية",
-      "درس: الدوال وتمثيلها",
-      "درس: الإحصاء والتمثيل البياني",
-      "درس: المتباينات",
+      "درس: تساوي كسرين جبريين",
+      "درس: العمليات على الكسور الجبرية",
+      "درس: تابع العمليات على الكسور",
+      "درس: احتمال تقاطع واتحاد",
+      "درس: احتمال : الحدث المكمل",
     ],
   },
   geometry: {
     review: [
-      "مراجعة: الزوايا والمتوازيات",
-      "مراجعة: مساحة المثلث",
-      "مراجعة: الدائرة وعناصرها",
-      "مراجعة: التحويلات الهندسية",
-      "مراجعة: المضلعات المنتظمة",
+      "مراجعة: مفاهيم الدائرة",
+      "مراجعة: نقطة ومستقيم في الدائرة",
+      "مراجعة: دائرة بالنسبة لاخرى",
+      "مراجعة: تعيين الدائرة",
+      "مراجعة: علاقة اوتار الدائرة",
     ],
     study: [
-      "درس: متوازي الأضلاع وخواصه",
-      "درس: مساحة الأشكال المركبة",
-      "درس: نظرية فيثاغورس",
-      "درس: الإسقاط والتشابه",
-      "درس: الحجوم والأسطح الجانبية",
+      "درس: الزاوية المركزية ",
+      "درس: العقاة بين زاويتين",
+      "درس: الزوايا المحيطية",
+      "درس: الشكل الرباعي الدائري",
+      "درس: اثبات الشكل الرباعي",
     ],
   },
 };
@@ -105,22 +122,21 @@ const lessons = {
 //  ✏️ ترتيب الأيام والمواد — عدّلي هنا لو احتجتي
 // ============================================================
 const DAYS = [
-  { name: "الأحد",              subject: "arabic"   },
-  { name: "الثلاثاء",           subject: "arabic"   },
-  { name: "الأربعاء",           subject: "social"   },
-  { name: "الخميس",             subject: "algebra"  },
-  { name: "الجمعة (هندسة)",     subject: "geometry" },
-  { name: "الجمعة (إنجليزي)",   subject: "english"  },
-  { name: "السبت",              subject: "science"  },
+  { name: "الأحد", subject: "arabic" },
+  { name: "الثلاثاء", subject: "social" },
+  { name: "الأربعاء", subject: "algebra" },
+  { name: "الجمعة (إنجليزي)", subject: "english" },
+  { name: "الجمعة (هندسة)", subject: "geometry" },
+  { name: "السبت", subject: "science" },
 ];
 
 const SUBJECT_META = {
-  arabic:   { label: "عربي",    icon: "📖", cls: "subject-arabic"   },
-  english:  { label: "إنجليزي", icon: "🔤", cls: "subject-english"  },
-  science:  { label: "علوم",    icon: "🔬", cls: "subject-science"  },
-  social:   { label: "دراسات",  icon: "🌍", cls: "subject-social"   },
-  algebra:  { label: "جبر",     icon: "🔢", cls: "subject-algebra"  },
-  geometry: { label: "هندسة",   icon: "📐", cls: "subject-geometry" },
+  arabic: { label: "عربي", icon: "📖", cls: "subject-arabic" },
+  english: { label: "إنجليزي", icon: "🔤", cls: "subject-english" },
+  science: { label: "علوم", icon: "🔬", cls: "subject-science" },
+  social: { label: "دراسات", icon: "🌍", cls: "subject-social" },
+  algebra: { label: "جبر", icon: "🔢", cls: "subject-algebra" },
+  geometry: { label: "هندسة", icon: "📐", cls: "subject-geometry" },
 };
 
 const NUM_WEEKS = 5;
@@ -131,7 +147,9 @@ const NUM_WEEKS = 5;
 let doneMap = {};
 
 function saveState() {
-  try { localStorage.setItem("studyDone", JSON.stringify(doneMap)); } catch (e) {}
+  try {
+    localStorage.setItem("studyDone", JSON.stringify(doneMap));
+  } catch (e) {}
 }
 
 function loadState() {
@@ -157,12 +175,12 @@ function buildNav() {
 }
 
 function showWeek(week) {
-  document.querySelectorAll(".week-btn").forEach((b) =>
-    b.classList.toggle("active", +b.dataset.week === week)
-  );
-  document.querySelectorAll(".week-grid").forEach((g) =>
-    g.classList.toggle("visible", +g.dataset.week === week)
-  );
+  document
+    .querySelectorAll(".week-btn")
+    .forEach((b) => b.classList.toggle("active", +b.dataset.week === week));
+  document
+    .querySelectorAll(".week-grid")
+    .forEach((g) => g.classList.toggle("visible", +g.dataset.week === week));
 }
 
 function buildSchedule() {
@@ -179,6 +197,7 @@ function buildSchedule() {
 function buildDayCard(week, dayIdx, day) {
   const meta = SUBJECT_META[day.subject];
   const wIdx = week - 1;
+  const subjectLessons = lessons[day.subject];
 
   const card = document.createElement("div");
   card.className = "day-card " + meta.cls;
@@ -194,14 +213,64 @@ function buildDayCard(week, dayIdx, day) {
   const sessions = document.createElement("div");
   sessions.className = "sessions";
 
-  const revKey = `w${week}-d${dayIdx}-review`;
-  sessions.appendChild(
-    buildSession(revKey, "مراجعة", "review-session", lessons[day.subject].review[wIdx])
-  );
+  const reviewData = subjectLessons.review[wIdx];
 
-  const stuKey = `w${week}-d${dayIdx}-study`;
+  if (day.subject === "arabic") {
+    // درسين مراجعة مختلفين
+    sessions.appendChild(
+      buildSession(
+        `w${week}-d${dayIdx}-review1`,
+        "مراجعة ١",
+        "review-session",
+        reviewData[0],
+      ),
+    );
+    sessions.appendChild(
+      buildSession(
+        `w${week}-d${dayIdx}-review2`,
+        "مراجعة ٢",
+        "review-session",
+        reviewData[1],
+      ),
+    );
+  } else if (day.subject === "social") {
+    // مراجعة تاريخ + مراجعة جغرافيا
+    sessions.appendChild(
+      buildSession(
+        `w${week}-d${dayIdx}-history`,
+        "مراجعة تاريخ",
+        "review-session",
+        reviewData.history,
+      ),
+    );
+    sessions.appendChild(
+      buildSession(
+        `w${week}-d${dayIdx}-geography`,
+        "مراجعة جغرافيا",
+        "review-session",
+        reviewData.geography,
+      ),
+    );
+  } else {
+    // باقي المواد: مراجعة واحدة عادية
+    sessions.appendChild(
+      buildSession(
+        `w${week}-d${dayIdx}-review`,
+        "مراجعة",
+        "review-session",
+        reviewData,
+      ),
+    );
+  }
+
+  // درس الدراسة — نفسه في كل المواد
   sessions.appendChild(
-    buildSession(stuKey, "دراسة", "study-session", lessons[day.subject].study[wIdx])
+    buildSession(
+      `w${week}-d${dayIdx}-study`,
+      "دراسة",
+      "study-session",
+      subjectLessons.study[wIdx],
+    ),
   );
 
   card.appendChild(sessions);
@@ -227,7 +296,12 @@ function buildSession(key, typeLabel, cls, title) {
 }
 
 function updateProgress() {
-  const total = NUM_WEEKS * DAYS.length * 2; // 7 × 2 × 5 = 70
+  // عربي: ٣ sessions | دراسات: ٣ sessions | الباقي ٤ أيام: ٢ sessions = مجموع ١٤ لكل أسبوع
+  const perWeek = DAYS.reduce((sum, day) => {
+    if (day.subject === "arabic" || day.subject === "social") return sum + 3;
+    return sum + 2;
+  }, 0);
+  const total = NUM_WEEKS * perWeek;
   const done = Object.values(doneMap).filter(Boolean).length;
   const pct = Math.round((done / total) * 100);
   document.getElementById("mainProgress").style.width = pct + "%";
